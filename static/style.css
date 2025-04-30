@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #2E3440;
+    color: #ECEFF4;
+}
+
+header {
+    background-color: #3B4252;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#data-count {
+    color: #A3BE8C;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #3B4252;
+    padding: 20px;
+    border-right: 1px solid #4C566A;
+}
+
+.control-panel {
+    background-color: #434C5E;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.control-panel h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 8px;
+    background-color: #434C5E;
+    border: 1px solid #4C566A;
+    color: #ECEFF4;
+    border-radius: 3px;
+}
+
+.input-section small {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #88C0D0;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #ECEFF4;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn.success {
+    background-color: #A3BE8C;
+}
+
+.btn.danger {
+    background-color: #BF616A;
+}
+
+.btn.primary {
+    background-color: #88C0D0;
+}
+
+.btn:disabled {
+    background-color: #4C566A;
+    cursor: not-allowed;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+main h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.table-container {
+    background-color: #434C5E;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #4C566A;
+}
+
+th {
+    background-color: #3B4252;
+    font-weight: bold;
+}
+
+td {
+    font-size: 14px;
+}
